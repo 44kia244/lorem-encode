@@ -13,7 +13,7 @@ node lorem-encode/index.js -d encoded.txt decoded.zip
 ```
 
 ## Configuration
-The `keys.json` included with this repository is the configuration file. It contains 256 no-space word each for 0x00 to 0xFF representation.
+The `keys.json` included with this repository is the configuration file. It contains 256 no-space unique word each for 0x00 to 0xFF representation.
 ```
 [
   "quae",
