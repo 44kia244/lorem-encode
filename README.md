@@ -1,5 +1,7 @@
 # lorem-encode
-A useless binary-to-text encoder created for sending a blocked file over FB Messenger
+This is a binary-to-text encoder that replace a byte into a predefined unique string, and then use the same string set to decode back into binary. This can bypass the security check of facebook messenger, but require receiver to use this program to decode it.
+
+*Note: I created this just for fun. No update or maintenance.*
 
 ## How to use
 ```bash
