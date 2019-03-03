@@ -2,7 +2,7 @@
 A useless binary-to-text encoder created for sending a blocked file over FB Messenger
 
 ## How to use
-```
+```bash
 # binary-to-text encoding
 node lorem-encode/index.js source.zip encoded.txt
 
