@@ -20,7 +20,10 @@ args.forEach(arg => {
     }
 });
 
-if (pathes.length !== 2) throw new Error('invalid path');
+if (pathes.length !== 2) {
+    console.error('Usage: lorem-encode [--decode|-d] <inputFile> <outputFile>')
+    process.exit(1)
+}
 
 let sourceFile = fs.createReadStream(path.resolve(pathes[0]));
 let destFile = fs.createWriteStream(path.resolve(pathes[1]));
