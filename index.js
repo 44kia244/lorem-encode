@@ -8,6 +8,7 @@ let args = process.argv.slice(2);
 
 let decode = false;
 let pathes = [];
+let help = false;
 
 args.forEach(arg => {
     switch (arg) {
@@ -15,13 +16,17 @@ args.forEach(arg => {
         case '--decode':
             decode = true;
             break;
+        case '-h':
+        case '--help':
+            help = true;
+            break;
         default:
             pathes.push(arg)
     }
 });
 
-if (pathes.length !== 2) {
-    console.error('Usage: lorem-encode [--decode|-d] <inputFile> <outputFile>')
+if (help || pathes.length !== 2) {
+    console.error('Usage: lorem-encode [--help|-h] [--decode|-d] <inputFile> <outputFile>')
     process.exit(1)
 }
 
