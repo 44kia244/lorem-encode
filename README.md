@@ -3,13 +3,18 @@ This is a binary-to-text encoder that replace a byte into a predefined unique st
 
 *Note: I created this just for fun. No update or maintenance.*
 
+# Installation
+```bash
+npm -g install lorem-encode
+```
+
 ## How to use
 ```bash
 # binary-to-text encoding
-node lorem-encode/index.js source.zip encoded.txt
+lorem-encode source.zip encoded.txt
 
 # text-to-binary decoding
-node lorem-encode/index.js -d encoded.txt decoded.zip
+lorem-encode -d encoded.txt decoded.zip
 ```
 
 ## Configuration
