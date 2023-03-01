@@ -1,6 +1,6 @@
 {
   "name": "lorem-encode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A useless binary-to-text encoder created for sending a blocked file over FB Messenger",
   "main": "index.js",
   "bin": "./index.js",
