@@ -1,12 +1,16 @@
 {
   "name": "encoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A useless binary-to-text encoder created for sending a blocked file over FB Messenger",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/44kia244/lorem-encode.git"
+  },
+  "author": "44kia244",
   "license": "ISC"
 }
